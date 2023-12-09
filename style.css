@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content_container{
+    width: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('./bg-intro-desktop.png'), #ff7a7a;
+    background-position: center;
+    background-repeat: repeat;
+    gap: 100px;
+}
+
+.header-content{
+    width: 540px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background: #5E54A4;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.header-content > p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.header-content > p > span{
+    color: #ccc;
+}
+ 
+span{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.268px; 
+}
+.container{
+    width: 540px;
+    height: 474px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+input{
+    width: 460px;
+    height: 56px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    color: #3D3B48;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.last_button{
+    width: 460px;
+    height: 56px;
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+p{
+    color: #BAB7D4;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.last{
+    color: #FF7979;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+h1{
+    width: 525px;
+    height: 131px;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.521px;
+}
+
+.firstp{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
